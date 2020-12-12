@@ -3,27 +3,27 @@
 # WIREFRAME DESIGN OF WEB PAGE
 Dashboard Page
 
-![page1 ](page1.jpg)
+![page1](page1.JPG)
 
 - For Mobile
 
-![mobilepage1>](mobilepage1.jpg)
+![mobilepage1>](mobilepage1.JPG)
 
 Guidelines Page
 
-![page2](page2.jpg)
+![page2](page2.JPG)
 
 - For Mobile
 
-![mobilepage2>](mobilepage2.jpg)
+![mobilepage2>](mobilepage2.JPG)
 
 News Page
 
-![page3](page3.jpg)
+![page3](page3.JPG)
 
 - For Mobile 
 
-![mobilepage3>](mobilepage3.jpg)
+![mobilepage3](mobilepage3.JPG)
 
 # **Software Requirements Specification**
 # *COVID-19 Dashboard*
