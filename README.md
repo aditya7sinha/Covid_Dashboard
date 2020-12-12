@@ -2,13 +2,18 @@
 
 # WIREFRAME DESIGN OF WEB PAGE
 Dashboard Page
-![page1](page1.jpg)
 
+[<img src="page1.jpg" width="500"/>](page1.jpg)
+- For Mobile
+[<img src="mobilepage1.jpg" height="400"/>](mobilepage1.jpg)
 Guidelines Page
-![page2](page2.jpg)
-
+[<img src="page2.jpg" width="500"/>](page2.jpg)
+- For Mobile
+[<img src="mobilepage2.jpg" height="400"/>](mobilepage2.jpg)
 News Page
-![page3](page3.jpg)
+[<img src="page3.jpg" width="500"/>](page3.jpg)
+- For Mobile 
+[<img src="mobilepage3.jpg" height="400"/>](mobilepage3.jpg)
 
 # **Software Requirements Specification**
 # *COVID-19 Dashboard*
