@@ -13,7 +13,7 @@ body {
     font-weight: 400;
     letter-spacing: var(--letter-spacing);
     color: var(--color-fg);
-    background: url(../../assets/img/background.jpg), #aaa;
+    background: url(../../../assets/img/background.jpg), #aaa;
 }
 
 p {
