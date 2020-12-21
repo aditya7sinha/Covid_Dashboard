@@ -1,87 +1,8 @@
-:root {
-    --letter-spacing: 1px;
-    --color-bg: #16181ef8;
-    --color-fg: #aaa;
-    --border-radius: .3em;
-    --panel-padding: 2em;
-    --panel-border: 2px solid #313237;
-    --font-anonymous:  "Anonymous Pro", sans-serif;
-    --font-freemono:  "Free Mono", sans-serif;
-    --font-lekton:  "Lekton", sans-serif;
-    --font-officecode:  "Office Code Pro", sans-serif;
-}
+@import "../assets/css/component.css";
+@import "../assets/css/variables.css";
+@import "../assets/css/fonts.css";
 
-@font-face {
-    font-family: "Anonymous Pro";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../../assets/fonts/Anonymous_Pro.ttf);
-}
-
-@font-face {
-    font-family: "Free Mono";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../../assets/fonts/FreeMono.ttf);
-}
-
-@font-face {
-    font-family: "Free Mono";
-    font-weight: 700;
-    font-style: normal;
-    src: url(../../assets/fonts/FreeMonoBold.ttf);
-}
-
-@font-face {
-    font-family: "Lekton";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../../assets/fonts/Lekton-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Office Code Pro";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../../assets/fonts/officecodepro-regular.otf);
-}
-
-@font-face {
-    font-family: "Office Code Pro";
-    font-weight: 400;
-    font-style: italic;
-    src: url(../../assets/fonts/officecodepro-regularitalic.otf);
-}
-
-@font-face {
-    font-family: "Office Code Pro";
-    font-weight: 300;
-    font-style: normal;
-    src: url(../../assets/fonts/officecodepro-light.otf);
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-officecode);
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: var(--letter-spacing);
-    color: var(--color-fg);
-    background: url(../../assets/img/background.jpg), #aaa;
-}
-
-p {
-    font-weight: 300;
-}
-
+/* Panel Component */
 .display-panel {
     max-width: 600px;
     padding: var(--panel-padding);
@@ -109,3 +30,4 @@ p {
     padding: 1rem 0;
     text-align: justify;
 }
+/* END Panel Component */
