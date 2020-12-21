@@ -1,0 +1,16 @@
+@import "./variables.css";
+
+/* App Layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: grid;
+    grid-template-rows: minmax(0, 120px) minmax(0, 1fr) minmax(0, 60px);
+    height: 100%;
+    padding: var(--layout-padding);
+}
+/* END App Layout */
