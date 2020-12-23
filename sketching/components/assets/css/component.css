@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-officecode);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: var(--letter-spacing);
+    color: var(--color-fg);
+    background: url(../../../assets/img/background.jpg), #aaa;
+}
+
+p {
+    font-weight: 300;
+}

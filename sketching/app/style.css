@@ -1,0 +1,131 @@
+@import "../assets/css/layout/layout.css";
+@import "../assets/css/layout/variables.css";
+@import "../assets/css/layout/fonts.css";
+
+body {
+    font-family: "Office Code Pro";
+    color: var(--color-fg);
+}
+
+.appHeader,
+.appFooter {
+    background: var(--color-bg-darker);
+}
+
+.appHeader {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 50px);
+    grid-template-rows: minmax(0, 1fr) minmax(0, 30px);
+}
+
+.appHeader__title,
+.appHeader__image {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.appHeader__image,
+.flagContainer__flag {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.appHeader__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    z-index: 2;
+}
+
+.appHeader__flag {
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 3;
+}
+
+.appHeader__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(.3) brightness(.5);
+    z-index: 1;
+}
+
+.appContent {
+    background: var(--color-bg);
+}
+
+.appMenu__list {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 2px solid var(--color-bg-darker);
+}
+
+.appMenu__item {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.appMenu__item + .appMenu__item,
+.appCounters__counter + .appCounters__counter {
+    border-left: 2px solid var(--color-bg-darker);
+}
+
+.appMenu__item--active {
+    background: var(--color-bg-darker);
+}
+
+.appContent__searchInput {
+    border: none;
+    color: var(--color-fg);
+    background: transparent;
+}
+
+.appContent__search {
+    padding: 0 .5rem;
+}
+
+.appContent__searchInput {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: var(--color-fg);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-fg);
+}
+
+.appContent__searchInput::placeholder {
+    opacity: .5;
+}
+
+.appContent__searchInput:focus,
+.appContent__searchInput:active,
+.appContent__searchInput:focus-visible {
+    outline: none;
+}
+
+.appContent__searchInput:focus::placeholder {
+    opacity: 1;
+}
+
+.appCounters {
+    display: flex;
+    border-bottom: 2px solid var(--color-bg-darker);
+}
+
+.appCounters__counter {
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

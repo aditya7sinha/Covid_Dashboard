@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid Radar</title>
+</head>
+<body>
+    <main id="app" class="app">
+        <header class="layoutContainer appHeader">
+            <h1 class="appHeader__title">Dashboard</h1>
+            <!-- <img src="../assets/img/globe-covid19.jpg" alt="" class="appHeader__image"> -->
+            <div class="appHeader__flag flagContainer">
+                <img src="../assets/img/afghanistan.png" alt="Flag of Afghanistan" class="flagContainer__flag">
+            </div>
+        </header>
+        <section class="layoutContainer appContent">
+            <aside class="appContent__search">
+                <input type="text" placeholder="Country..." class="appContent__searchInput">
+            </aside>
+            <aside class="appContent__counters appCounters">
+                <section class="appCounters__counter appCounters__counter--positives">Positive cases</section>
+                <section class="appCounters__counter appCounters__counter--deaths">Deaths</section>
+                <section class="appCounters__counter appCounters__counter--recoveries">Recoveries</section>
+            </aside>
+            <aside class="appContent__graph"></aside>
+            <aside class="appContent__graph"></aside>
+            <nav class="appContent__menu appMenu">
+                <ul class="appMenu__list">
+                    <li class="appMenu__item appMenu__item--active">Home</li>
+                    <li class="appMenu__item">Guidelines</li>
+                    <li class="appMenu__item">News</li>
+                </ul>
+            </nav>
+        </section>
+        <footer class="layoutContainer appFooter">
+            This is the footer
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

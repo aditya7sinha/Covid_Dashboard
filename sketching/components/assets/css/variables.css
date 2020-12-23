@@ -1,0 +1,12 @@
+:root {
+    --letter-spacing: 1px;
+    --color-bg: #16181ef8;
+    --color-fg: #aaa;
+    --border-radius: .3em;
+    --panel-padding: 2em;
+    --panel-border: 2px solid #313237;
+    --font-anonymous:  "Anonymous Pro", sans-serif;
+    --font-freemono:  "Free Mono", sans-serif;
+    --font-lekton:  "Lekton", sans-serif;
+    --font-officecode:  "Office Code Pro", sans-serif;
+}
