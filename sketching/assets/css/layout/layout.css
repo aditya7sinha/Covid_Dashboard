@@ -9,8 +9,12 @@ html, body {
 
 .app {
     display: grid;
-    grid-template-rows: minmax(0, 120px) minmax(0, 1fr) minmax(0, 60px);
+    grid-template-rows: minmax(0, 120px) minmax(0, 1fr) minmax(0, 30px);
     height: 100%;
-    padding: var(--layout-padding);
+}
+
+.appContent {
+    display: grid;
+    grid-template-rows: minmax(0, 40px) minmax(0, 60px) repeat(2, minmax(0, 1fr)) minmax(0, 60px);
 }
 /* END App Layout */
