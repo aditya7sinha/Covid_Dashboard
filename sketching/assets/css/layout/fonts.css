@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../../fonts/Anonymous_Pro.ttf);
+}
+
+@font-face {
+    font-family: "Free Mono";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../../fonts/FreeMono.ttf);
+}
+
+@font-face {
+    font-family: "Free Mono";
+    font-weight: 700;
+    font-style: normal;
+    src: url(../../fonts/FreeMonoBold.ttf);
+}
+
+@font-face {
+    font-family: "Lekton";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../../fonts/Lekton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../../fonts/officecodepro-regular.otf);
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: italic;
+    src: url(../../fonts/officecodepro-regularitalic.otf);
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 300;
+    font-style: normal;
+    src: url(../../fonts/officecodepro-light.otf);
+}
