@@ -80,6 +80,7 @@ body {
 }
 
 .appMenu__item--active {
+    color: var(--color-blue);
     background: var(--color-bg-darker);
 }
 
