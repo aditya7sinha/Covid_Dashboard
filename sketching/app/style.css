@@ -130,3 +130,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.appCounters__counter--positives {
+    color: var(--color-yellow);
+}
+
+.appCounters__counter--deaths {
+    color: var(--color-red);
+}
+
+.appCounters__counter--recoveries {
+    color: var(--color-green);
+}
